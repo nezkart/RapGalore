@@ -8,7 +8,7 @@ html, body {
     margin: 0;
 }
 
-header h1, .gallery-item h2 {
+header h1 {
     font-weight: normal;
 }
 
@@ -23,17 +23,9 @@ header h1, .gallery-item h2 {
     box-shadow: 0 0 15px gray;
 }
 
-.gallery-item h2 {
-    background-color: white;
-    margin: 0;
-    padding: 15px;
-    padding-left: 20px;
-    font-size: 1.75rem;
-}
-
-.gallery-item img {
+.gallery-item iframe {
     width: 100%;
-    display: block;
+    height: 100%;
 }
 
 header h1 {
@@ -60,9 +52,5 @@ header {
 
     header h1 {
         font-size: 1.60rem;
-    }
-
-    .gallery-item h2 {
-        font-size: 1.5rem;
     }
 }
